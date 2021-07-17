@@ -48,6 +48,3 @@ export default new Router({
         },
     ]
 })
-
-
-출처: https://yoyostudy.tistory.com/29 [뇌손실방지]
