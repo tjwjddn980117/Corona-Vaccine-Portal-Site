@@ -1,12 +1,20 @@
 <template>
+  <div>
+    <side-bar></side-bar>
     
+  </div>
 </template>
 <script>
-import { defineComponent } from '@vue/composition-api'
-
-export default defineComponent({
-    setup() {
-        
+import SideBar from '../components/SideBar.vue'
+  export default {
+  components: { SideBar },
+    name: 'NewsPage',
+    data() {
+      return {}
     },
-})
+    methods: {},
+    created() {}
+  }
 </script>
+<style>
+</style>
