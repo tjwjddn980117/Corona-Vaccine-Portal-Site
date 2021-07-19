@@ -1,19 +1,15 @@
-import Vue from 'vue'
-import Router from 'vue-router'
-import MainPage from './pages/MainPage.vue'
-import LoginPage from './pages/LoginPage.vue'
-import RegisterPage from './pages/RegisterPage.vue'
-import IdSearchPage from './pages/IdSearchPage.vue'
-import MapPage from './pages/MapPage.vue'
-import NewsPage from './pages/NewsPage.vue'
-import CovidVaccinationPage from './pages/CovidVaccinationPage.vue'
-import CovidVaccineReviewPage from './pages/CovidVaccineReviewPage.vue'
+import { createWebHistory, createRouter } from "vue-router";
+import MainPage from '@/pages/MainPage.vue'
+import LoginPage from '@/pages/LoginPage.vue'
+import RegisterPage from '@/pages/RegisterPage.vue'
+import IdSearchPage from '@/pages/IdSearchPage.vue'
+import MapPage from '@/pages/MapPage.vue'
+import NewsPage from '@/pages/NewsPage.vue'
+import CovidVaccinationPage from '@/pages/CovidVaccinationPage.vue'
+import CovidVaccineReviewPage from '@/pages/CovidVaccineReviewPage.vue'
 
-Vue.use(Router)
 
-export default new Router({
-    mode: 'history',
-    routes: [
+const routes = [
         {
             path: '/',
             component: MainPage
@@ -46,5 +42,10 @@ export default new Router({
             path: '/CovidVaccineReview',
             component: CovidVaccineReviewPage
         },
-    ]
-})
+    ];
+const router = createRouter({
+    history: createWebHistory(),
+    routes,
+    });
+    
+export default router;

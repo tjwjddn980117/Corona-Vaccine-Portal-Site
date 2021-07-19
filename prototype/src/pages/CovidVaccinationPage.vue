@@ -1,7 +1,7 @@
 <template>
   <div>
     <side-bar></side-bar>
-    
+    ㅁㄴㅇㅁㄴㅇ
   </div>
 </template>
 <script>
