@@ -1,0 +1,21 @@
+[debug] [2021-07-18T08:03:41.468Z] ----------------------------------------------------------------------
+[debug] [2021-07-18T08:03:41.471Z] Command:       /Users/jungsuuann/.nvmsource/versions/node/v15.5.1/bin/node /Users/jungsuuann/.nvmsource/versions/node/v15.5.1/bin/firebase init
+[debug] [2021-07-18T08:03:41.471Z] CLI Version:   9.16.0
+[debug] [2021-07-18T08:03:41.471Z] Platform:      darwin
+[debug] [2021-07-18T08:03:41.471Z] Node Version:  v15.5.1
+[debug] [2021-07-18T08:03:41.473Z] Time:          Sun Jul 18 2021 17:03:41 GMT+0900 (대한민국 표준시)
+[debug] [2021-07-18T08:03:41.473Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2021-07-18T08:03:41.479Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2021-07-18T08:03:41.479Z] > authorizing via signed-in user (bulebed1754@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  /Users/jungsuuann/git/Corona-Vaccine-Portal-Site/webserver
+
